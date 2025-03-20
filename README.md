@@ -27,7 +27,7 @@ Agents – Using LLMs as reasoning agents to enhance application capabilities.
 - **Chains**: Sequences of operations combining LLMs, prompts, and parsers.
 - **Agents**: Autonomous reasoning agents with specialized toolkits.
 
-### 2. Models, Prompts, and Parsers
+### 2. [Models, Prompts, and Parsers](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L1-Model_prompt_parser.ipynb)
 - Direct API calls to OpenAI and through LangChain.
 - **Models**: Control randomness with temperature (e.g., 0.0 for deterministic responses).
 - **Prompts**:
@@ -38,7 +38,7 @@ Agents – Using LLMs as reasoning agents to enhance application capabilities.
   - Define structured LLM output.
   - Parse output into Python dictionaries.
 
-### 3. Memory
+### 3. [Memory](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L2-Memory.ipynb)
 - LLMs are stateless; memory provides conversational context.
 - Types of memory:
   - **Conversation Buffer Memory**
@@ -50,14 +50,14 @@ Agents – Using LLMs as reasoning agents to enhance application capabilities.
   - **Entity Memories**: Remembers details about specific entities.
   - **Hybrid Memory**: Combines conversation and entity memory.
 
-### 4. Chains
+### 4. [Chains](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L3-Chains.ipynb)
 - **LLMChain**: Basic model execution.
 - **Sequential Chains**:
   - SimpleSequentialChain.
   - SequentialChain.
 - **Router Chain**: Directs queries to specialized chains.
 
-### 5. Question Answering
+### 5. [Question Answering](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L4-QnA.ipynb)
 - Query product catalogs and other document-based data.
 - **LLMs on Documents**:
   - LLMs have context limitations (~few thousand words).
@@ -72,7 +72,7 @@ Agents – Using LLMs as reasoning agents to enhance application capabilities.
   - **Refine**: Iteratively improve responses.
   - **Map-Rerank**: Rank results based on relevance.
 
-### 6. Evaluation
+### 6. [Evaluation](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L5-Evaluation.ipynb)
 - Create a Q&A application.
 - Combine and test examples:
   - Hardcoded.
@@ -82,7 +82,7 @@ Agents – Using LLMs as reasoning agents to enhance application capabilities.
   - LLM-assisted evaluation.
   - LangChain evaluation platform.
 
-### 7. Agents
+### 7. [Agents](https://github.com/michaWorku/LangChain-for-LLM-Application-Development/blob/main/L6-Agents.ipynb)
 - Build agents using LangChain tools:
   - Load tools like Wikipedia search, Python REPL.
   - Initialize agents with tools and LLM.
